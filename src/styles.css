@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .grupo-selector {
+    margin-bottom: 20px;
+  }
+  
+  .grupo-selector select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .horarios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dia-container {
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .horarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .horario {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 600px) {
+    .horario {
+      width: 100%;
+      padding: 15px 0;
+    }
+  }
